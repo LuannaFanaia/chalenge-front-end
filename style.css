@@ -1,5 +1,13 @@
 @import url('../styles/header.css');
+@import url('../styles/section.css');
 
 :root {
     --fonte-padrao: "Raleway";
+    --azul-padrao: #2A7AE4;
+}
+
+body {
+    font-size: 14px;
+    font-family: var(--fonte-padrao);
+    font-weight: 400;
 }

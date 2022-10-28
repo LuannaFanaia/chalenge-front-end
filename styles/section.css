@@ -1,0 +1,9 @@
+.promocao {
+    display: flex;
+    background-image: url('../img/background-promoção.svg');
+}
+.promocao__titulo {
+    font-weight: 700;
+    font-size: 22px;
+    color: white;
+}

@@ -1,3 +1,29 @@
-.login {
-    font-family: var(--fonte-padrao);
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 2em 0;
+}
+
+.container__logo {
+    display: flex;
+    align-items: center;
+    padding: 0 0.5em 0 0;
+}
+
+.cabecalho__controle-logo {
+    width: 30px;
+    height: 20px;
+}
+
+.container__logo-texto {
+    padding: 0 0.2em;
+}
+
+.login__link {
+    text-decoration: none;
+    color: var(--azul-padrao);
+    padding: 1em 4em;
+    border: 1px solid var(--azul-padrao);
+    font-weight: 600;
 }

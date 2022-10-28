@@ -4,42 +4,46 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<!--Fontes do Google-->
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link
 			href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap"
 			rel="stylesheet"
 		/>
-        <!--Início da estilização-->
-        <link rel="stylesheet" href="reset.css">
+		<!--Início da estilização-->
+		<link rel="stylesheet" href="reset.css" />
 		<link rel="stylesheet" href="style.css" />
 		<title>Alura Geek</title>
 	</head>
 	<body>
 		<header class="cabecalho">
-			<div class="container__logo">
+			<div class="container">
+				<div class="container__logo">
+					<img
+						src="img/logo-controle.svg"
+						alt="Imagem do logotipo, um controle de videogame."
+						class="cabecalho__controle-logo"
+					/>
+					<img
+						src="img/AluraGeek.svg"
+						alt="Texto do logotipo."
+						class="container__logo-texto"
+					/>
+				</div>
+				<a href="#" class="login__link">Login</a>
 				<img
-					src="img/logo-controle.svg"
-					alt=""
-					class="cabecalho__controle-logo"
-				/>
-				<img
-					src="img/AluraGeek-1.svg"
-					alt="Logo Alura"
-					class="cabecalho__alurageek"
-				/>
-				<img
-					src="img/AluraGeek-2.svg"
-					alt="Logo Alura"
-					class="cabecalho__alurageek"
+					src="img/lupa.svg"
+					alt="Símbolo de pesquisa, uma lupa."
+					class="pesquisa"
 				/>
 			</div>
-			<p class="login">Login</p>
-			<img
-				src="img/lupa.svg"
-				alt="Símbolo de pesquisa, uma lupa."
-				class="pesquisa"
-			/>
 		</header>
+		<section class="promocao">
+			<h2 class="promocao__titulo">Dezembro Promocional</h2>
+			<p class="promocao__texto">
+				Produtos selecionados com 33% de desconto
+			</p>
+			<a href="#" class="promocao__link">Ver Consoles</a>
+		</section>
 	</body>
 </html>
