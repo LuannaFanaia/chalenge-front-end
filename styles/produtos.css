@@ -1,0 +1,50 @@
+.produtos__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+}
+
+.produtos__titulo {
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--cinza-escuro);
+}
+
+.produtos__link {
+    display: flex;
+    text-decoration: none;
+    color: var(--azul-padrao);
+    font-weight: 700;
+}
+
+.produtos__link p {
+    margin-right: 0.5em;
+}
+
+.container__produtos {
+    display: flex;
+    justify-content: space-around;
+}
+
+/*
+.produtos__tabela-linha {
+
+}
+
+.produtos__tabela-coluna {
+
+}
+
+.produtos__tabela-descricao {
+
+}
+
+.produtos__tabela-preco {
+
+}
+
+.produtos__tabela-link {
+
+}
+*/
