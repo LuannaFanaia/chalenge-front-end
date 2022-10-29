@@ -1,7 +1,6 @@
 .info {
-    padding: 1em;
+    padding: 1em 1em 3em 1em;
     background: var(--azul-clarinho);
-    margin-bottom: 2em;
 }
 
 .info__container {
