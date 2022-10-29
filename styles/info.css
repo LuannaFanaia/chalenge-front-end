@@ -1,0 +1,89 @@
+.info {
+    padding: 1em;
+    background: var(--azul-clarinho);
+    margin-bottom: 2em;
+}
+
+.info__container {
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+.info__lista{
+    text-align: center;
+}
+
+.info__item {
+    padding: 0.8em;
+}
+
+.info__link {
+    text-decoration: none;
+    color: var(--cinza-escuro);
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.formulario {
+    padding: 2em 0;
+}
+
+.formulario__contato {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 0.5em;
+}
+
+.rotulo {
+    position: absolute;
+    color: var(--cinza-clarinho);
+    padding: 0.8em;
+    font-size: 12px;
+}
+
+.formulario__contato-nome {
+    margin-bottom: 1em;
+    width: 90vw;
+    height: 7vh;
+    border: none;
+    font-family: var(--fonte-padrao);
+    font-size: 16px;
+    color: var(--cinza-escuro);
+    box-shadow: 0 0.5px 4px var(--cinza-clarinho);
+}
+
+.formulario__contato-nome::placeholder {
+    color: var(--cinza-escuro);
+    font-size: 16px;
+    padding: 0.5em;
+}
+
+.formulario__contato-mensagem {
+    margin-bottom: 1em;
+    width: 90vw;
+    border: none;
+    color: var(--cinza-escuro);
+    font-size: 16px;
+    font-family: var(--fonte-padrao);
+    box-shadow: 0 0.5px 4px var(--cinza-clarinho);
+}
+
+.formulario__contato-mensagem::placeholder {
+    color: var(--cinza-clarinho);
+    font-family: var(--fonte-padrao);
+    font-size: 16px;
+    padding: 1em 0.5em;
+}
+
+.formulario__contato-link {
+    padding: 1em 1.5em;
+    margin: 5em 0;
+    background-color: var(--azul-padrao);
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+

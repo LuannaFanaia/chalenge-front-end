@@ -1,11 +1,15 @@
 @import url('../styles/header.css');
 @import url('../styles/banner.css');
 @import url('../styles/produtos.css');
+@import url('../styles/info.css');
+@import url('../styles/rodape.css');
 
 :root {
     --fonte-padrao: "Raleway";
     --azul-padrao: #2A7AE4;
     --cinza-escuro: #464646;
+    --azul-clarinho: #EAF2FD;
+    --cinza-clarinho: #A2A2A2;
     --gradiente-imagem: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(180deg, rgba(0, 0, 0, 0) 41.15%, rgba(0, 0, 0, 0.8) 100%);
 }
 
