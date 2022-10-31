@@ -13,7 +13,7 @@
 		<!--Início da estilização-->
 		<link rel="stylesheet" href="reset.css" />
 		<link rel="stylesheet" href="style.css" />
-		<title>Alura Geek</title>
+		<title>AluraGeek</title>
 	</head>
 	<body>
 		<header class="cabecalho">
@@ -30,15 +30,23 @@
 						class="container__logo-texto"
 					/>
 				</div>
-				<a href="#" class="login__link">Login</a>
-				<a href="#" class="pesquisa__link">
-					<img
-					src="img/lupa.svg"
-					alt="Símbolo de pesquisa, uma lupa."
-					class="pesquisa__link-imagem"
-				/>
-				</a>
-				
+				<div class="login-pesquisa__container">
+					<a href="#" class="login__link">Login</a>
+					<div class="pesquisa__container">
+						<input
+							type="text"
+							class="pesquisa__caixa"
+							placeholder="O que deseja encontrar?"
+						/>
+						<a href="#" class="pesquisa__link">
+							<img
+								src="img/lupa.svg"
+								alt="Símbolo de pesquisa, uma lupa."
+								class="pesquisa__link-imagem"
+							/>
+						</a>
+					</div>
+				</div>
 			</div>
 		</header>
 

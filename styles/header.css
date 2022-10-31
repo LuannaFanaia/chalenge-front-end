@@ -27,3 +27,42 @@
     border: 1px solid var(--azul-padrao);
     font-weight: 600;
 }
+
+.pesquisa__caixa {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        display: flex;
+        justify-content: space-between;
+        margin: 2em;
+    }
+
+    .pesquisa__caixa {
+        display: block;
+        padding: 0.2em 0.5em;
+        margin: 2.5em;
+        border: none;
+        font-family: var(--fonte-padrao);
+        color: var(--cinza-escuro);
+    }
+
+    .pesquisa__caixa::placeholder {
+        color: var(--cinza-clarinho);
+    }
+
+    .login-pesquisa__container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+    }
+
+    .pesquisa__container {
+        display: flex;
+        margin-right: 13em;
+        justify-content: center;
+        align-items: center;
+    }
+}
